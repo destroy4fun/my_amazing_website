@@ -58,19 +58,38 @@ body {
     font-size: 4rem;
 }
 
-main .bio {
+#contact main .bio {
 
 }
 
-main ul {
+#contact main ul {
     list-style: none;
-    position: absolute;
+    display: flex;
+    font-style: oblique;
+
 }
 
-main ul figcaption {
+#contact main ul figcaption {
+    text-align: center;
+    font-size: 1rem;
 }
 
-main ul img {
+#contact main ul img {
     height: 3rem;
     float: left;
+}
+
+#contact main ul img:hover,
+#contact main ul img:active {
+    transform: scale(1.1);
+}
+
+#blog main li {
+    padding: 1rem;
+}
+
+#blog main ul a {
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
 }
