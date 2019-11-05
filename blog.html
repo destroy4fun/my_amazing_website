@@ -33,8 +33,11 @@
                 <a href=post-html5.html>Example Post - HTML</a>
             </li>
         </ul>
-        <form action="test" method="post">
-            <input type="text" name="username">
+        <form action="login.php" method="get">
+            <label for="username">Username: </label>
+            <input id="username" type="text" name="username" required>
+            <label for="password">Password: </label>
+            <input id="password" type="text" name="password" required>
             <input type="submit">
         </form>
     </main>
